@@ -1,0 +1,13 @@
+CONTRIBUTIONS OF TEAM MEMBERS
+
+Vineeth Rambhiya (AI25MTECH11005)
+Led the theoretical foundation of the project by developing explanations of causal inference concepts, including structural causal models, counterfactual reasoning, and mediation analysis. Also contributed to understanding path-specific effects and linking theory with implementation.
+
+Akshay S Harits (ES23BTECH11002)
+Worked on the implementation of Counterfactual Fairness (Kusner et al.). Built the Pyro-based model with latent variable K, implemented importance sampling, and trained baseline models (Full, Unaware, Fair-K, Fair-Add). Also handled evaluation metrics and visualization of results.
+
+Junjure Sai Sathwik R (ES23BTECH11020)
+Focused on implementation of Fair Inference on Outcomes (Nabi & Shpitser) and the PSCF-VAE model. Implemented constrained optimization (COBYLA), variational autoencoder with MMD regularization, and handled most of the core code in the notebooks including sampling and fair prediction methods. Also contributed to writing the implementation explanation.
+
+Lakkoju Vikranth Ram (ES23BTECH11024)
+Handled data preprocessing, dataset preparation, and experimental setup. Worked on feature engineering, train-test splits, and generated plots such as distributions, ROC curves, and fairness diagnostics. Also contributed to analyzing results and understanding the accuracy–fairness trade-off.
